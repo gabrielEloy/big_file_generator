@@ -1,0 +1,12 @@
+{
+  "name": "big_file_generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "chalk-pipe": "^5.1.1",
+    "faker": "^5.5.3",
+    "inquirer": "^8.2.0",
+    "lodash": "^4.17.21"
+  }
+}
