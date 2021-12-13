@@ -14,7 +14,7 @@ const createFileData = (fields, lines, writeStreamRef) => {
 
     for(let i = 0; i < (lines - 1) ; i++) {
         const data = fieldsGenerators.map(field => field()).join(',');
-        writeStreamRef.write(`${data}\n`)
+        writeStreamRef.write(`${data}\n`);
     }
 }
 
